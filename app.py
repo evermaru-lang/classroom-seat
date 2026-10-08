@@ -129,7 +129,7 @@ with tab1:
     </div>
     """, unsafe_allow_html=True)
 
-    col_btn, col_info = st.columns()
+    col_btn, col_info = st.columns([1, 4])
     with col_btn:
         if st.button("🔄 좌석 현황 새로고침"):
             st.rerun()
